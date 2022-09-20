@@ -38,7 +38,6 @@ function liquidar(){
     let totalLiquidacion = document.getElementById("capaMostrar");  
     let total =  compraJamon()+compraPeperoni()+compraPiña()+compraQueso()+compraQueso()
 
-    
     return totalLiquidacion.innerHTML = 
     "La cantidad de pizza de Jamon es:" + compraJamon()+ 
     '<br>'+
