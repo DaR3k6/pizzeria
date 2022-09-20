@@ -1,4 +1,9 @@
-let jamon = document.getElementById('compraJamon').value;
-let compraJamon =  document.getElementById('Jamon').value;
-let totoal = document.getElementById('liquidar');
+function compraJamon(){
+    let cantidadJamon = document.getElementById("cantiadJamon").value;
+    let resultado = document.getElementById("capaMostrar")
 
+    let total = cantidadJamon * 5000;
+
+    return resultado.innerHTML = "total es:" + total;    
+
+}
