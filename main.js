@@ -98,91 +98,56 @@ function liquidar() {
 
   if (jamon > 0) {
     totalLiquidacion.innerHTML +="Total de Pizza de Jamon es: " + jamon + "<br>";   
-  }else{
-    totalLiquidacion.innerHTML +="No seleccionaste la Pizza de Jamon"+ "<br>";
   }
 
   if(piña > 0){
     totalLiquidacion.innerHTML += "Total de Pizza de Piña es: " + piña+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste la Pizza de Piña " + "<br>";
   }
 
   if(queso > 0){
     totalLiquidacion.innerHTML += "Total de Pizza de Queso es: " + queso+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste la Pizza de Queso" + "<br>";
   }
-
   if(vegetal > 0){
     totalLiquidacion.innerHTML += "Total de Pizza de Vegetariana es: " + vegetal+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste la Pizza de Vegetariana " + "<br>";
   }
-
   if(peperoni > 0){
     totalLiquidacion.innerHTML += "Total de Pizza de Peperoni es: " + peperoni+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste la Pizza de Peperoni " + "<br>";
   }
 
   if(dedos> 0){
     totalLiquidacion.innerHTML += "Total Dedos de Queso es: " + dedos+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste Dedos de Queso " + "<br>";
   }
 
   if(alitas > 0){
     totalLiquidacion.innerHTML += "Total Alitas de pollo es: " + alitas+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste Alitas de pollo " + "<br>";
   }
-
   if(ensalada > 0){
     totalLiquidacion.innerHTML += "Total de la Ensalada es: " + ensalada+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste la Ensalada" + "<br>";
   }
-
 
   if(nuggets> 0){
     totalLiquidacion.innerHTML += "Total de los Nuggets es: " + nuggets+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste los Nuggets" + "<br>";
   }
 
-  
   if(rolls> 0){
     totalLiquidacion.innerHTML += "Total de los Rolls es: " + rolls+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste los Rolls" + "<br>";
   }
 
   if(hits> 0){
     totalLiquidacion.innerHTML += "Total Jugo Hits 500ML es: " + hits+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste los Jugo Hits 500ML" + "<br>";
   }
 
   if(hitl> 0){
     totalLiquidacion.innerHTML += "Total  Jugo HiT 1L: " + hitl+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste Jugo HiT 1L" + "<br>";
   }
 
   if(fanta> 0){
     totalLiquidacion.innerHTML += "Total la Gaseosa Fanta es: " + fanta+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste la gaseosa Fanta " + "<br>";
   }
 
   if(coca> 0){
     totalLiquidacion.innerHTML += "Total la Gaseosa CocaCola es: " + coca+ "<br>";
-  }else{
-    totalLiquidacion.innerHTML += "No seleccionaste la Gaseosa CocaCola" + "<br>";
   }
-
-  
     total = jamon+piña+queso+vegetal+peperoni+dedos+alitas+ensalada+nuggets+rolls+hitl+hits+fanta+coca;
     totalLiquidacion.innerHTML += "Total de la liquidacion:" +total+ "<br>"
 }
