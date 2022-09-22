@@ -16,20 +16,31 @@ let total = 0;
 
 function compraJamon() {
   let cantidadJamon = document.getElementById("cantiadJamon").value;
-
-  jamon = cantidadJamon * 20000;
+  if(cantidadJamon <= 0){
+   jamon = 0 ;
+  }else{
+    jamon = cantidadJamon * 20000;
+  }
 
   return jamon;
 }
 function compraPiña() {
   let cantidadPiña = document.getElementById("cantidadPiña").value;
-  piña = cantidadPiña * 22000;
-
+  if(cantidadPiña <= 0){
+    piña = 0 ;
+   }else{
+    piña = cantidadPiña * 22000;
+  }
   return piña;
 }
 function compraQueso() {
   let cantidadQueso = document.getElementById("cantidadQueso").value;
- queso = cantidadQueso * 25000;
+  if(cantidadQueso <= 0){
+    queso= 0;
+  }else{
+    queso = cantidadQueso * 25000;
+  }
+
 
   return queso;
 }
@@ -38,58 +49,104 @@ function compraVegetariana() {
   let cantidadVegetariana = document.getElementById(
     "cantidadVegetariana"
   ).value;
-  vegetal = cantidadVegetariana * 25000;
+  if(vegetal <= 0){
+    vegetal = 0;
+  }else{
+    vegetal = cantidadVegetariana * 25000;
+
+  }
   return vegetal;
 }
 
 function compraPeperoni() {
   let cantidadPeperoni = document.getElementById("cantidadPeperoni").value;
-  peperoni = cantidadPeperoni * 23000;
+  if(cantidadPeperoni <=0){
+    peperoni = 0;
+  }else{
+    peperoni = cantidadPeperoni * 23000;
+  }
   return peperoni;
 }
 function compraDedos() {
   let cantiadDedos = document.getElementById("cantiadadDedos").value;
+  if(cantiadDedos <= 0){
+    dedos = 0;
+  }else{
   dedos  = cantiadDedos * 4000;
+  }
   return dedos;
 }
 function compraAlitas() {
   let cantiadadAlitas = document.getElementById("cantidadAlitas").value;
-  alitas = cantiadadAlitas * 5000;
+  if(cantiadadAlitas <=0){
+    alitas = 0;
+  }else{
+    alitas = cantiadadAlitas * 5000;
+  }
   return alitas;
 }
 function compraEnsalada() {
   let cantidadEnsalda = document.getElementById("cantidadEnsalada").value;
-  ensalada = cantidadEnsalda * 4000;
+  if(cantidadEnsalda <= 0){
+    ensalada = 0;
+  }else{
+    ensalada = cantidadEnsalda * 4000;
+  }
   return ensalada;
 }
 function compraNuggets() {
   let cantiadadNuggets = document.getElementById("cantidadNuggets").value;
+  if(cantiadadNuggets <=0){
+    nuggets = 0;
+  }else{
   nuggets = cantiadadNuggets * 6000;
+  }
   return nuggets;
 }
 function compraRolls() {
   let cantidadRolls = document.getElementById("cantidadRolls").value;
+  if(cantidadRolls <= 0){
+    rolls = 0;
+  }else{
   rolls = cantidadRolls * 5000;
+  }
   return rolls;
 }
 function compraHit() {
   let cantidadHits = document.getElementById("cantiadHit").value;
-  hits = cantidadHits * 2500;
+  if(cantidadHits <= 0){
+    hits = 0;
+  }else{
+    hits = cantidadHits * 2500;
+  }
   return hits;
 }
 function compraHitL() {
   let cantidadHitL = document.getElementById("cantidadHiTL").value;
+  if(cantidadHitL <= 0){
+    hitl = 0;
+  }else{
   hitl = cantidadHitL * 5000;
+  }
   return hitl;
 }
 function compraFanta() {
   let cantidadFanta = document.getElementById("cantidadFanta").value;
-  fanta = cantidadFanta * 3000;
+  if(cantidadFanta <= 0){
+    hitl = 0;
+  }else{
+    fanta = cantidadFanta * 3000;
+  }
   return fanta;
 }
 function compraCocaCola() {
   let cantidadCocaCola = document.getElementById("cantidadCocaCola").value;
-  coca = cantidadCocaCola * 6000;
+  if(cantidadCocaCola <= 0){
+    coca = 0;
+  }else{
+    coca = cantidadCocaCola * 6000;
+
+  }
   return coca;
 }
 
